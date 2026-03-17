@@ -1,0 +1,74 @@
+[
+    { "Documento": 1061690234,
+    "nombre": "juan",
+    "correo": "juan2004@gmail.com",
+    "edad": 21,
+    "direccion": {
+        "calle":"Carrera 10 #45-20",
+        "ciudad:": "bogota",
+        "barrio": "chapinero"
+    },
+    "departamento": "sistemas",
+    "codigo": "CURSO-2024-01",
+    "cursos": ["MongoDB", "Bases de Datos", "programacion orientada a objetos"]
+    },
+
+    { "Documento": 1023456791,
+    "nombre": "maicol",
+    "correo": "maicol1804@gmail.com",
+    "edad": 18,
+    "direccion": {
+        "calle":"Carrera 11 #32-20",
+        "ciudad:": "cali",
+        "barrio": "san fernando"
+    },
+    "departamento": "sistemas",
+    "codigo": "CURSO-2024-02",
+    "cursos": ["MongoDB", "Bases de Datos"]
+    },
+
+    {
+    "Documento": 1033445566,
+    "nombre": "laura",
+    "correo": "laura.m@gmail.com",
+    "edad": 25,
+    "direccion": {
+    "calle": "Calle 50 #10-5",
+    "ciudad": "medellin",
+    "barrio": "el poblado"
+    },
+    "departamento": "diseño",
+    "codigo": "CURSO-2024-02",
+    "cursos": ["Photoshop", "Illustrator", "MongoDB"]
+    },
+
+    {
+    "Documento": 1044556677,
+    "nombre": "andres",
+    "correo": "andres.p@gmail.com",
+    "edad": 17,
+    "direccion": {
+    "calle": "Avenida 4 #1-20",
+    "ciudad": "popayan",
+    "vereda": "la rejoya"
+    },
+    "departamento": "sistemas",
+    "codigo": "CURSO-2024-01",
+    "cursos": ["Bases de Datos", "Lógica"]
+    },
+
+    {
+    "Documento": 1055667788,
+    "nombre": "sofia",
+    "correo": "sofia.v@gmail.com",
+    "edad": 30,
+    "direccion": {
+    "calle": "Carrera 15 #100-1",
+    "ciudad": "bogota",
+    "barrio": "usaquen"
+    },
+    "departamento": "administracion",
+    "codigo": "CURSO-2024-03",
+    "cursos": ["Excel Avanzado", "Sistemas"]
+    }
+]

@@ -1,0 +1,60 @@
+[
+    {"Documento de identificación": 1061234573,
+    "curso": "sistemas",
+    "fecha inscripción": "2024-03-01",
+    "estado": "activo",
+    "pago":{
+        "monto": 2000000,
+        "metodo": "tarjeta",
+        "completado": true
+    }
+    },
+
+    {
+    "documento_identificacion": 1023456791,
+    "curso": "Bases de Datos",
+    "fecha_inscripcion": "2024-03-05",
+    "estado": "pendiente",
+    "pago": {
+    "monto": 800,
+    "metodo": "transferencia",
+    "completado": false
+    }
+    },
+
+    {
+    "documento_identificacion": 1033445566,
+    "curso": "Photoshop",
+    "fecha_inscripcion": "2024-02-15",
+    "estado": "activo",
+    "pago": {
+    "monto": 4500,
+    "metodo": "efectivo",
+    "completado": true
+    }
+    },
+
+    {
+    "documento_identificacion": 1044556677,
+    "curso": "Lógica",
+    "fecha_inscripcion": "2024-03-10",
+    "estado": "activo",
+    "pago": {
+    "monto": 20,
+    "metodo": "tarjeta",
+    "completado": true
+    }
+    },
+
+    {
+    "documento_identificacion": 1055667788,
+    "curso": "Sistemas",
+    "fecha_inscripcion": "2024-01-20",
+    "estado": "suspendido",
+    "pago": {
+    "monto": 0,
+    "metodo": "beca",
+    "completado": false
+    }
+    }
+]

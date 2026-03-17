@@ -1,0 +1,56 @@
+[
+    {"documento estudiante": 1063278458,
+    "fecha": "2024-03-01",
+    "tipo de examen": "final mongoDB",
+    "resultados":{
+        "nota": 3.5,
+        "aprobo": true,
+        "observaciones": "Buen desempeño en consultas anidadas"
+    }
+    },
+
+    {
+    "documento estudiante": 1061690234,
+    "fecha": "2024-03-05",
+    "tipo de examen": "Primer Parcial POO",
+    "resultados": {
+    "nota": 4.0,
+    "aprobo": false,
+    "observaciones": "Debe reforzar herencia"
+    }
+    },
+
+    {
+    "documento estudiante": 1023456791,
+    "fecha": "2024-02-15",
+    "tipo de examen": "Final Bases de Datos",
+    "resultados": {
+    "nota": 5.0,
+    "aprobo": true,
+    "observaciones": "Completó los puntos obligatorios"
+    }
+    },
+
+    {
+    "documento estudiante": 1033445566,
+    "fecha": "2024-03-10",
+    "tipo de examen": "Parcial Photoshop",
+    "resultados": {
+    "nota": 4.5,
+    "aprobo": true,
+    "observaciones": "Uso creativo de capas"
+    }
+    },
+
+    {
+    "documento estudiante": 1044556677,
+    "fecha": "2024-03-12",
+    "tipo de examen": "Prueba Lógica",
+    "resultados": {
+    "nota": 3.6,
+    "aprobo": false,
+    "observaciones": "Faltó tiempo"
+    }
+    }
+
+]

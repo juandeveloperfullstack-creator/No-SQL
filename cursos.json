@@ -1,0 +1,140 @@
+[
+    { "Nombre": "MongoDB para Principiantes",
+    "categoría": "Bases de Datos",
+    "nivel": "Basico",
+    "precio": 50,
+    "duración": 20,
+    "instructor": {
+        "nombre":"Carlos Ruiz",
+        "experiencia": 5,
+        "correo": "carlos.inst@cursos.com"
+    }
+
+    },
+
+    {
+    "nombre": "Programacion Orientada a Objetos",
+    "categoria": "Desarrollo",
+    "nivel": "Intermedio",
+    "precio": 80,
+    "duracion_horas": 40,
+    "instructor": {
+    "nombre": "Ana María Silva",
+    "experiencia": 2,
+    "correo": "ana.dev@cursos.com"
+    }
+    },
+
+    {
+    "nombre": "Excel Avanzado",
+    "categoria": "Ofimática",
+    "nivel": "Avanzado",
+    "precio": 30,
+    "duracion_horas": 15,
+    "instructor": {
+    "nombre": "Roberto Gómez",
+    "experiencia": 10,
+    "correo": "roberto.admin@cursos.com"
+    }
+    },
+
+    {
+    "nombre": "Diseño con Photoshop",
+    "categoria": "Diseño",
+    "nivel": "Básico",
+    "precio": 45,
+    "duracion_horas": 25,
+    "instructor": {
+    "nombre": "Laura Méndez",
+    "experiencia": 3,
+    "correo": "laura.art@cursos.com"
+    }
+    },
+
+    {
+    "nombre": "Lógica de Programación",
+    "categoria": "Desarrollo",
+    "nivel": "Básico",
+    "precio": 20,
+    "duracion_horas": 10,
+    "instructor": {
+    "nombre": "Ana María Silva",
+    "experiencia": 2,
+    "correo": "ana.dev@cursos.com"
+    }
+    }
+]
+
+
+
+{
+    "$and":[
+        {"nivel": "Intermedio"},
+        {"precio":{"$gte":200000}}
+    ]
+}
+
+{
+    "$or":[
+        {"nivel": "basico"},
+        {"precio":{"$lte": 150000}}
+    ]
+}
+
+
+{
+    "cursos":{
+        "$in":["mongoDB","Python Básico"]
+    }
+}
+
+{
+    "resultados.nota":{
+        "$gte": 3.5,
+        "$lte": 5
+    }
+}
+
+{
+    "instructor.experiencia":{
+        "$gte": 3
+    }
+}
+
+{
+    "estado": "activo"
+}
+
+
+{
+    "estado": "activo",
+        "pago.monto":{"$gte": 200000}
+    
+}
+
+
+{
+    "$and": [
+        {"estado": "activo"},
+        {
+            "$or": [
+                {"pago.metodo": "tarjeta"},
+                {"pago.monto": {"$gte": 1000000}}
+            ]
+        }
+    ]
+}
+
+3. Crear una consulta donde el precio esté entre 100000 y 300000 y el
+instructor tenga al menos 4 años de experiencia.
+
+{
+    "precio": { "$gte": 100000, "$lte": 300000},
+    "instructor.experiencia": { "$gte": 4 }
+}
+
+
+{
+    "precio": { "$gte": 100000, "$lte": 300000 },
+    "instructor.años_experiencia": { "$gte": 4 }
+}
